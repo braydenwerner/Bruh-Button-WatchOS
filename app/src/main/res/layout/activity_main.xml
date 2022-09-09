@@ -14,11 +14,28 @@
         android:padding="@dimen/inner_frame_layout_padding"
         app:layout_boxedEdges="all">
 
-        <TextView
-            android:id="@+id/text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bruhButton"
+                android:layout_width="120dp"
+                android:layout_height="127dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="#13278A"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/bruh"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
+
 </androidx.wear.widget.BoxInsetLayout>
