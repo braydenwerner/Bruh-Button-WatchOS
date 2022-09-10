@@ -15,13 +15,13 @@
         app:layout_boxedEdges="all">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="145dp"
+            android:layout_height="144dp">
 
             <Button
                 android:id="@+id/bruhButton"
-                android:layout_width="120dp"
-                android:layout_height="127dp"
+                android:layout_width="110dp"
+                android:layout_height="117dp"
                 android:background="@drawable/round_button"
                 android:backgroundTint="#13278A"
                 android:fontFamily="sans-serif-medium"
@@ -32,6 +32,16 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/round_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.48"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>

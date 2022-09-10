@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/BruhButtonWatchOS/app/src/main/res/drawable/round_button.xml" value="0.461" />
+        <entry key="..\:/AndroidStudio/BruhButtonWatchOS/app/src/main/res/drawable/round_button_pressed.xml" value="0.2585" />
+        <entry key="..\:/AndroidStudio/BruhButtonWatchOS/app/src/main/res/layout/activity_main.xml" value="1.0826359832635983" />
         <entry key="..\:/AndroidStudio/app/src/main/res/drawable/round_button.xml" value="0.523" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main.xml" value="1.6380753138075315" />
       </map>
